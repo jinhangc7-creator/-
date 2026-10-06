@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>安稳人生指南 · 在线阅读</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;background:#f6f4ee;color:#2b2b2b;line-height:1.7}
+header{position:sticky;top:0;z-index:10;background:#fff;border-bottom:1px solid #e5e0d5;padding:10px 14px}
+header h1{font-size:19px}
+header p{font-size:12px;color:#888}
+.searchbar{display:flex;gap:8px;margin-top:8px}
+.searchbar input{flex:1;padding:9px 12px;border:1px solid #ddd;border-radius:8px;font-size:15px}
+.filters{display:flex;gap:6px;margin-top:8px;flex-wrap:wrap}
+.filters button{border:1px solid #ddd;background:#fff;border-radius:20px;padding:4px 12px;font-size:13px;cursor:pointer}
+.filters button.on{background:#2b2b2b;color:#fff;border-color:#2b2b2b}
+main{max-width:760px;margin:0 auto;padding:14px}
+.chap{background:#fff;border-radius:10px;padding:16px;margin:16px 0;box-shadow:0 1px 3px rgba(0,0,0,.05)}
+.chap h2{font-size:19px;margin-bottom:6px}
+.chap .intro{font-size:13.5px;color:#666;margin-bottom:8px}
+.groups{font-size:13px;color:#888;margin-bottom:4px}
+.groups b{color:#555}
+.entry{border-top:1px dashed #e5e0d5;padding:12px 0}
+.entry h3{font-size:15.5px;margin-bottom:6px}
+.kv{font-size:13.5px;margin:3px 0}
+.kv .k{color:#999}
+.say{background:#fffbe8;border-left:3px solid #e8b400;padding:8px 10px;margin:8px 0;font-size:14px;border-radius:0 6px 6px 0}
+.badge{display:inline-block;font-size:11px;border-radius:4px;padding:1px 7px;margin-left:6px;color:#fff;vertical-align:2px}
+.badge.A{background:#1a8c3a}.badge.B{background:#c77f0a}.badge.C{background:#999}
+.src{font-size:12.5px;color:#666;word-break:break-all}
+.src a{color:#2b6cb0}
+.note{font-size:12.5px;color:#999;margin-top:4px}
+nav.parts{margin:10px 0}
+nav.parts a{display:inline-block;margin:3px 6px 3px 0;font-size:13px;color:#2b6cb0;text-decoration:none}
+.count{font-size:12px;color:#999;margin:8px 0}
+footer{text-align:center;color:#aaa;font-size:12px;padding:30px 0}
+mark{background:#ffe58f}
+</style></head>
+<body>
+<header><h1>安稳人生指南</h1><p>18 岁到退休，农村县城城市三选一 · 36 节 · 587 条 · 每条带数据与出处</p>
+<div class="searchbar"><input id="q" placeholder="搜索：比如 彩礼、医保、加班费…"></div>
+<div class="filters"><button data-g="A">只看A级</button><button data-g="B">只看B级</button><button data-g="C">只看C级</button></div>
+</header>
+<nav class="parts"><a href="#c-01">1. 别把第一份工作卖贱了</a><a href="#c-02">2. 学历这张票，怎么买最值</a><a href="#c-03">3. 别在 20 岁就背上债</a><a href="#c-04">4. 别在错的地方安家</a><a href="#c-05">5. 彩礼婚礼，别打肿脸充胖子</a><a href="#c-06">6. 孩子在哪儿生养最划算</a><a href="#c-07">7. 别让职业天花板压死你</a><a href="#c-08">8. 被裁了，别慌</a><a href="#c-09">9. 上有老下有小，钱和力气都别透支</a><a href="#c-10">10. 房贷和存款，别让银行赚走你的中年</a><a href="#c-11">11. 熟人局的坑，一个都别踩</a><a href="#c-31">31. 考公考编到底值不值</a><a href="#c-32">32. 大厂国企小公司，第一份工作怎么选</a><a href="#c-33">33. 恋爱怎么谈不吃亏</a><a href="#c-34">34. 婚前必看的几件事</a><a href="#c-35">35. 第一桶金怎么攒</a><a href="#c-36">36. 刚需买房上车指南</a><a href="#c-17">17. 看病别花冤枉钱</a><a href="#c-18">18. 体检别被忽悠</a><a href="#c-19">19. 熬夜抽烟喝酒，到底折多少寿</a><a href="#c-20">20. 吃药的学问</a><a href="#c-21">21. 借钱的红线</a><a href="#c-22">22. 打工人的法律武器</a><a href="#c-23">23. 做生意的法律红线</a><a href="#c-24">24. 网上的坑：网贷、刷单、杀猪盘</a><a href="#c-25">25. 出事了先做什么</a><a href="#c-26">26. 被骗了先做什么</a><a href="#c-27">27. 户口和证件，别让一张纸卡住你</a><a href="#c-28">28. 人情往来，别让面子吃掉里子</a><a href="#c-29">29. 学门手艺，什么时候都不晚</a><a href="#c-30">30. 副业，别把主业搭进去</a><a href="#c-12">12. 养老金这笔账，现在就得算</a><a href="#c-13">13. 返乡还是留城，别等 60 岁再纠结</a><a href="#c-14">14. 财产给子女，先留一手</a><a href="#c-15">15. 养老别靠运气</a><a href="#c-16">16. 别让骗子掏空你的棺材本</a></nav>
+<div class="count" id="count">正在加载…</div>
+<main id="main"></main>
+<footer>《安稳人生指南》初稿 · 内容持续更新 · 数据口径以原文标注为准</footer>
+<script>
+const CHAPTERS=[{"f": "book/01-别把第一份工作卖贱了.md", "t": "1. 别把第一份工作卖贱了", "n": "01"}, {"f": "book/02-学历这张票怎么买最值.md", "t": "2. 学历这张票，怎么买最值", "n": "02"}, {"f": "book/03-别在20岁就背上债.md", "t": "3. 别在 20 岁就背上债", "n": "03"}, {"f": "book/04-别在错的地方安家.md", "t": "4. 别在错的地方安家", "n": "04"}, {"f": "book/05-彩礼婚礼别打肿脸充胖子.md", "t": "5. 彩礼婚礼，别打肿脸充胖子", "n": "05"}, {"f": "book/06-孩子在哪儿生养最划算.md", "t": "6. 孩子在哪儿生养最划算", "n": "06"}, {"f": "book/07-别让职业天花板压死你.md", "t": "7. 别让职业天花板压死你", "n": "07"}, {"f": "book/08-被裁了，别慌.md", "t": "8. 被裁了，别慌", "n": "08"}, {"f": "book/09-上有老下有小，钱和力气都别透支.md", "t": "9. 上有老下有小，钱和力气都别透支", "n": "09"}, {"f": "book/10-房贷和存款，别让银行赚走你的中年.md", "t": "10. 房贷和存款，别让银行赚走你的中年", "n": "10"}, {"f": "book/11-熟人局的坑，一个都别踩.md", "t": "11. 熟人局的坑，一个都别踩", "n": "11"}, {"f": "book/31-考公考编到底值不值.md", "t": "31. 考公考编到底值不值", "n": "31"}, {"f": "book/32-大厂国企小公司第一份工作怎么选.md", "t": "32. 大厂国企小公司，第一份工作怎么选", "n": "32"}, {"f": "book/33-恋爱怎么谈不吃亏.md", "t": "33. 恋爱怎么谈不吃亏", "n": "33"}, {"f": "book/34-婚前必看的几件事.md", "t": "34. 婚前必看的几件事", "n": "34"}, {"f": "book/35-第一桶金怎么攒.md", "t": "35. 第一桶金怎么攒", "n": "35"}, {"f": "book/36-刚需买房上车指南.md", "t": "36. 刚需买房上车指南", "n": "36"}, {"f": "book/17-看病别花冤枉钱.md", "t": "17. 看病别花冤枉钱", "n": "17"}, {"f": "book/18-体检别被忽悠.md", "t": "18. 体检别被忽悠", "n": "18"}, {"f": "book/19-熬夜抽烟喝酒，到底折多少寿.md", "t": "19. 熬夜抽烟喝酒，到底折多少寿", "n": "19"}, {"f": "book/20-吃药的学问.md", "t": "20. 吃药的学问", "n": "20"}, {"f": "book/21-借钱的红线.md", "t": "21. 借钱的红线", "n": "21"}, {"f": "book/22-打工人的法律武器.md", "t": "22. 打工人的法律武器", "n": "22"}, {"f": "book/23-做生意的法律红线.md", "t": "23. 做生意的法律红线", "n": "23"}, {"f": "book/24-网上的坑：网贷、刷单、杀猪盘.md", "t": "24. 网上的坑：网贷、刷单、杀猪盘", "n": "24"}, {"f": "book/25-出事了先做什么.md", "t": "25. 出事了先做什么", "n": "25"}, {"f": "book/26-被骗了先做什么.md", "t": "26. 被骗了先做什么", "n": "26"}, {"f": "book/27-户口和证件，别让一张纸卡住你.md", "t": "27. 户口和证件，别让一张纸卡住你", "n": "27"}, {"f": "book/28-人情往来，别让面子吃掉里子.md", "t": "28. 人情往来，别让面子吃掉里子", "n": "28"}, {"f": "book/29-学门手艺，什么时候都不晚.md", "t": "29. 学门手艺，什么时候都不晚", "n": "29"}, {"f": "book/30-副业，别把主业搭进去.md", "t": "30. 副业，别把主业搭进去", "n": "30"}, {"f": "book/12-养老金这笔账，现在就得算.md", "t": "12. 养老金这笔账，现在就得算", "n": "12"}, {"f": "book/13-返乡还是留城，别等60岁再纠结.md", "t": "13. 返乡还是留城，别等 60 岁再纠结", "n": "13"}, {"f": "book/14-财产给子女，先留一手.md", "t": "14. 财产给子女，先留一手", "n": "14"}, {"f": "book/15-养老别靠运气.md", "t": "15. 养老别靠运气", "n": "15"}, {"f": "book/16-别让骗子掏空你的棺材本.md", "t": "16. 别让骗子掏空你的棺材本", "n": "16"}];
+function esc(s){return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");}
+function inline(s){s=esc(s);
+ s=s.replace(/\[([^\]]+)\]\((https?:[^)\s]+)\)/g,'<a href="$2" target="_blank">$1</a>');
+ s=s.replace(/\*\*([^*]+)\*\*/g,"<strong>$1</strong>");return s;}
+function renderChapter(ch,text){
+ const sec=document.createElement("section");sec.className="chap";sec.id="c-"+ch.n;
+ const h2=document.createElement("h2");h2.textContent=ch.t;sec.appendChild(h2);
+ const lines=text.split("\n");let intro=[],entries=[],cur=null,field=null;
+ const F={"成本":"cost","说人话":"say","收益":"gain","证据等级":"grade","来源":"src","备注":"note"};
+ for(let raw of lines){const line=raw.trim();
+  if(!line||line.indexOf("[←")==0||line.indexOf("<!--")==0)continue;
+  if(line.indexOf("### ")==0){cur={title:line.slice(4).trim(),fields:{}};entries.push(cur);field=null;continue;}
+  if(line.indexOf("# ")==0)continue;
+  const m=line.match(/^- (成本|说人话|收益|证据等级|来源|备注)：(.*)$/);
+  if(m&&cur){field=m[1];cur.fields[field]=m[2];continue;}
+  if(cur&&field){cur.fields[field]+="\n"+line;}
+  else if(!cur){intro.push(line);}
+ }
+ if(intro.length){const d=document.createElement("div");d.className="intro";
+  d.innerHTML=intro.map(p=>"<p>"+inline(p)+"</p>").join("");sec.appendChild(d);}
+ for(const e of entries){
+  const g=(e.fields["证据等级"]||"C").trim().charAt(0);
+  const art=document.createElement("article");art.className="entry";art.dataset.grade=g;
+  let h='<h3>'+inline(e.title)+'<span class="badge '+g+'">'+g+'级证据</span></h3>';
+  if(e.fields["成本"])h+='<div class="kv"><span class="k">成本：</span>'+inline(e.fields["成本"])+'</div>';
+  if(e.fields["说人话"])h+='<div class="say">'+inline(e.fields["说人话"])+'</div>';
+  if(e.fields["收益"])h+='<div class="kv"><span class="k">收益：</span>'+inline(e.fields["收益"])+'</div>';
+  if(e.fields["来源"])h+='<div class="src"><span class="k">来源：</span>'+inline(e.fields["来源"])+'</div>';
+  if(e.fields["备注"])h+='<div class="note">备注：'+inline(e.fields["备注"])+'</div>';
+  art.innerHTML=h;sec.appendChild(art);
+ }
+ return sec;
+}
+async function load(){
+ const main=document.getElementById("main");main.innerHTML="";
+ for(const ch of CHAPTERS){
+  try{const r=await fetch(encodeURI(ch.f));const t=await r.text();main.appendChild(renderChapter(ch,t));}
+  catch(e){const p=document.createElement("p");p.textContent="加载失败："+ch.t;main.appendChild(p);}
+ }
+ initFilter();
+}
+const q=document.getElementById("q"),gradeBtns=document.querySelectorAll(".filters button"),count=document.getElementById("count");
+let grade="";
+function initFilter(){
+ q.addEventListener("input",apply);
+ gradeBtns.forEach(b=>b.addEventListener("click",()=>{gradeBtns.forEach(x=>x.classList.remove("on"));if(grade===b.dataset.g){grade="";}else{grade=b.dataset.g;b.classList.add("on");}apply();}));
+ apply();
+}
+function apply(){
+ const kw=q.value.trim();
+ document.querySelectorAll(".entry").forEach(en=>{
+  let show=true;
+  if(grade&&en.dataset.grade!==grade)show=false;
+  if(kw&&en.textContent.indexOf(kw)<0)show=false;
+  en.style.display=show?"":"none";});
+ document.querySelectorAll(".chap").forEach(ch=>{
+  const vis=[...ch.querySelectorAll(".entry")].some(e=>e.style.display!=="none");
+  ch.style.display=vis?"":"none";});
+ const total=document.querySelectorAll(".entry").length;
+ const n=document.querySelectorAll('.entry:not([style*="none"])').length;
+ count.textContent=kw||grade?("找到 "+n+" 条"):("共 "+total+" 条");
+ document.querySelectorAll("mark").forEach(m=>m.replaceWith(document.createTextNode(m.textContent)));
+ if(kw){document.querySelectorAll(".entry").forEach(en=>{if(en.style.display!=="none"){
+  const walker=document.createTreeWalker(en,NodeFilter.SHOW_TEXT);const nodes=[];while(walker.nextNode())nodes.push(walker.currentNode);
+  nodes.forEach(nd=>{const i=nd.textContent.indexOf(kw);if(i>=0&&nd.parentNode.tagName!=="MARK"){const r=document.createRange();r.setStart(nd,i);r.setEnd(nd,i+kw.length);const m=document.createElement("mark");try{r.surroundContents(m);}catch(e){}}});}});}
+}
+load();
+
+</script>
+</body></html>
